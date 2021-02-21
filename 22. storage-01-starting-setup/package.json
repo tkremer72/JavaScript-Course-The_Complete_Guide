@@ -1,0 +1,22 @@
+{
+  "name": "22.-storage-01-starting-setup",
+  "version": "1.0.0",
+  "description": "localStorage, sessionStorage - Simple key value store, Manage user preferences, or basic user data.  Can be cleared by the user and via JS.  Easy to use, quite versatile, bad for complex data.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkremer72/JavaScript-Course-Browser_Storage.git"
+  },
+  "author": "Thomas Kremer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tkremer72/JavaScript-Course-Browser_Storage/issues"
+  },
+  "homepage": "https://github.com/tkremer72/JavaScript-Course-Browser_Storage#readme",
+  "devDependencies": {
+    "eslint": "^7.20.0"
+  }
+}
