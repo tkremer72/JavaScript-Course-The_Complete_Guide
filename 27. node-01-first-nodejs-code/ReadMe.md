@@ -2,3 +2,4 @@
      Before working with Express, I first need to make this an npm project.  I do this by running the command npm init and for this example I will use all of the defaults.
      The next step will be to install the express framework by running the command npm install --save express.  Also added a .gitignore file and put the node_modules folder inside of it to keep from pushing it to GitHub.
      Install the body-parser package - npm install --save body-parser.
+     Install the ejs package.  npm install --save ejs
