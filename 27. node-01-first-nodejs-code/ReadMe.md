@@ -3,3 +3,6 @@
      The next step will be to install the express framework by running the command npm install --save express.  Also added a .gitignore file and put the node_modules folder inside of it to keep from pushing it to GitHub.
      Install the body-parser package - npm install --save body-parser.
      Install the ejs package.  npm install --save ejs
+     Install mongodb npm install --save mongodb
+     Install the dotenv package npm install --save dotenv
+     

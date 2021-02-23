@@ -1,11 +1,16 @@
+//import the dotenv 
+require('dotenv').config()
 //import express
 const express = require("express");
 const bodyParser = require('body-parser');
+
 
 const locationRoutes = require('./routes/location');
 
 //create an express app
 const app = express();
+//set the port
+// const port = process.env.PORT || 8080;
 
 //Set the view engine
 // app.set('view engine', 'ejs');
@@ -38,4 +43,4 @@ app.use((req, res, next) => {
 });
 app.use(locationRoutes);
 
-app.listen(3000);
+app.listen(process.env.PORT);
