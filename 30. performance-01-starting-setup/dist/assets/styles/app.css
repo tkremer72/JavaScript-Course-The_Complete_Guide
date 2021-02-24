@@ -19,7 +19,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #b6004c;
+  background: blue;
 }
 
 label, input {
@@ -44,9 +44,9 @@ input:focus {
 
 button {
   font: inherit;
-  background: #4e0097;
+  background: green;
   color: white;
-  border: 1px solid #4e0097;
+  border: 1px solid darkgreen;
   cursor: pointer;
   padding: 0.5rem 2rem;
 }
@@ -57,8 +57,8 @@ button:focus, input:focus {
 
 button:hover,
 button:active {
-  background: #6e0dc9;
-  border-color: #6e0dc9;
+  background: grey;
+  border-color: green;
 }
 
 header h1 {
