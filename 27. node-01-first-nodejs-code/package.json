@@ -4,7 +4,8 @@
   "description": "Before working with Express, I first need to make this an npm project.  I do this by running the command npm init and for this example I will use all of the defaults.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "Thomas Kremer",
   "license": "ISC",
