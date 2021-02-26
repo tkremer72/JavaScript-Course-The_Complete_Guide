@@ -45,4 +45,8 @@ test('Should generate an element with text and correct class', async () => {
 //In order to get the above to work properly without timing out or running into memory leak issues
 //I had to set the timeout timer for more than ten seconds.
 
+//Async code
+
+
+
 
